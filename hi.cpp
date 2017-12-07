@@ -10,7 +10,10 @@ T dbl(T val)
 struct svm
 {
     int phi;
-} fortune;
+};
+
+svm fortune; // should this be declared at the 'global' scope or in the function that it is used?
+
 
 int main()
 {
