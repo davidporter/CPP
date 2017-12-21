@@ -1,0 +1,2 @@
+﻿  factorial.cpp
+c:\code\cpp\factorial\factorial.cpp(10): error C2065: 'cout': undeclared identifier
