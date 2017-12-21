@@ -27,4 +27,5 @@ int main()
     // std::cin >> numbin;
     std::cout << "doubles to: " << dbl(numbin) << std::endl;
     std::cout << "and your struct is " << fortune.phi << std::endl; 
+	std::cout << "I need to start coding every day!"
 }
