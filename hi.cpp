@@ -1,31 +1,14 @@
 #include <iostream>
-#include <vector>
+using namespace std;
 
-template <typename T>
-T dbl(T val)
-{
-    return val+val;
-}
+int main(void) {
+	
+	float z;
+	int cero = 0;
+	z = 7 / cero;
 
-struct svm
-{
-    int phi;
-};
+	int y = z;
 
-svm fortune; // should this be declared at the 'global' scope or in the function that it is used?
-
-
-int main()
-{
-    //template <typename U>
-    fortune.phi = 9;
-    int numin = 0.0;
-    double numbin;
-    std::vector<int> myVect;
-    std::cout << "Hi David" << std::endl;
-    std::cout << "Tell me a number: "; std::cin >> numbin;
-    // std::cin >> numbin;
-    std::cout << "doubles to: " << dbl(numbin) << std::endl;
-    std::cout << "and your struct is " << fortune.phi << std::endl; 
-	std::cout << "I need to start coding every day!"
+	cout << "It's me, your first program.\n" << y;
+	return 0;
 }
