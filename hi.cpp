@@ -5,10 +5,12 @@ int main(void) {
 	
 	float z;
 	int cero = 0;
-	z = 7 / cero;
+	
 
 	int y = z;
+        
+	int myIntArr[] = {1,2,3};
 
-	cout << "It's me, your first program.\n" << y;
+	cout << "It's me, your first program.\n"<< myIntArr[2]<< " \n" << y;
 	return 0;
 }
