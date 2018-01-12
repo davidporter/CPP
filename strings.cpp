@@ -1,7 +1,7 @@
 // adapted from C++ Primer Plus 
 
 #include <iostream>
-
+#include <string>
 #include <cstring>  // for the strlen() function
 
 int main()
@@ -11,10 +11,15 @@ int main()
     char name1[Size];
     static char name2[Size] = "C++owboy";
 
+    string myString;
+    string stringy = "David";
+
+    myString = stringy;
+
     cout << "Howdy! I'm " << name2;
     cout << "What's your name?\n";
     cin >> name1;
-    cout << "Well, " << name1 << ", your name has ";
+    cout << "Well, " << myString << ", your name has ";
     cout << strlen(name1) << " letters and is stored in an array of " << sizeof(name1) << " bytes.\n";
     cout << "Your first initial is " << name1[0] << ".\n";
     name2[3] = '\0';
