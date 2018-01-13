@@ -27,6 +27,6 @@ int main()
     cout << "Here are the first 3 characters of my name: ";
     cout << name2 << endl;
     cout << "stringy = \"David\" " << std::endl;
-    cout << "stringy += name1 " << stringy<<"\n"; 
+    cout << "stringy += name1 " << stringy<<"\n";  
     return 0;
 }
