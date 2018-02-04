@@ -9,6 +9,10 @@ int main()
 
 	std::cout << ptrry[0] << std::endl;
 
+	ptrry++;
+
+	std::cout << ptrry[0];
+	
 	return 0;
 }
 
