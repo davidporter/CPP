@@ -10,7 +10,7 @@ int main()
 	int someInt = 9;
 	pi = &someInt;
 
-	pf = new flaot;
+	pf = new float;
 
 	std::cout << pi << std::endl;
 	std::cout << "pf " << pf << std::endl;
