@@ -5,7 +5,7 @@
 int main() {
 	using namespace std;
 	char animal[20] = "bear";
-	const char * bird = "wren";
+	const char * bird = "wren"; 	// bird pointer is assigned the address of 'w'
 	char * ps;
 
 	cout << animal << " and ";
