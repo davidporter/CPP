@@ -1,4 +1,4 @@
-nclude <iostream>
+include <iostream>
 void countdown(int n);
 
 int main()
@@ -9,9 +9,10 @@ int main()
 
 void countdown(int n)
 {
-	using namespace std;
-	cout << "counting down.. " << n << endl;
-	it (n > 0)
-		countdown(n-1)
-		cout << ": Kaboom!\n";
+	std::cout << "counting down.. " << n << std::endl;
+	if (n > 0)
+	{
+		countdown(n-1);
+	}
+	std::cout << ": Kaboom!\n";
 }
