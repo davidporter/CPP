@@ -7,12 +7,16 @@ int main()
     int * pt = new int;
 
     float * pt1  = new float;
+	
+    std::cout << "giveme an array lenght: " << std::endl;
 
-    class me {
-    };
+
+    int alen;
+    std::cin >> alen;
+
+    int myArr[alen];
     
-    me * ptme = new me; 
-    std::cout << "Pointer Program" << std::endl;
+
     std::cout << pt << std::endl;
     std::cout << pt1 << std::endl;
 
