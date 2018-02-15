@@ -1,3 +1,6 @@
+/* David Porter
+   February 15, 2018
+*/
 #include <iostream>
 #include <string>
 
@@ -38,8 +41,6 @@ int main()
     // dereference pointer
     (*ptr_c).intensity = "piano";
     std::cout << (*ptr_c).intensity << std::endl;    
-
-
 
     std::cout << "Now for the entity: " << std::endl;
     e.Print(37);
