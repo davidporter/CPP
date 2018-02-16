@@ -5,12 +5,13 @@
 int byref(int*);
 int byval(int);
 
+	auto var2 = 11;
 
 
 int main()
 {
 	auto var = 7;
-	auto var2 = 11;
+	//auto var2 = 11;
 
 	int* ptr = &var;
 
