@@ -5,11 +5,13 @@
 int byref(int*);
 int byval(int);
 
-auto var = 7;
-auto var2 = 11;
+
 
 int main()
 {
+	auto var = 7;
+	auto var2 = 11;
+
 	int* ptr = &var;
 
 	std::cout << var << std::endl;
@@ -18,7 +20,7 @@ int main()
 	byref(ptr);
 	std::cout << var <<std::endl;
 
-	byval(var2);
+	byval(var2);  // does not change var2
 	std::cout << var2 << std::endl;
 }
 
