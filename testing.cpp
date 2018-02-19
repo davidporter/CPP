@@ -15,6 +15,7 @@ int main()
 
     int myArr[alen];
     
+    // implicit array length declaration
     int anArr[] = {1, 2, 3, 4, 5};
 
     for (int i = 0; i < 5; i++)
