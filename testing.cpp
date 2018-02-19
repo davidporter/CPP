@@ -11,11 +11,16 @@ int main()
     std::cout << "giveme an array lenght: " << std::endl;
 
 
-    int alen;
-    std::cin >> alen;
+    const int alen = 3;
 
     int myArr[alen];
     
+    int anArr[] = {1, 2, 3, 4, 5};
+
+    for (int i = 0; i < 5; i++)
+    {
+        std::cout << anArr[i] << std::endl;
+    }
 
     std::cout << pt << std::endl;
     std::cout << pt1 << std::endl;
