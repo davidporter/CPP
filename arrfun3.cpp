@@ -16,7 +16,7 @@ int main()
     show_array(properties, size);
     if (size > 0)
     {
-        cout << "Enter revaluation factorL ";
+        cout << "Enter revaluation factor ";
         double factor;
         while (!(cin >> factor))  // bad input
         {
