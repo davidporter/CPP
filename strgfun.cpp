@@ -6,7 +6,7 @@ int main()
     using namespace std;
     char mmm[15] = "minimum";
 
-    char *wail = "ululate";
+    const char *wail = "ululate";
 
     unsigned int ms = c_in_str(mmm, 'm');  // unsigned int because there is no negative in string
     unsigned int us = c_in_str(wail, 'u');
