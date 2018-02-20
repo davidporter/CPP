@@ -4,26 +4,19 @@ int main()
 {
     std::cout << "Hi" << std::endl;
 
-    int * pt = new int;
+    int age = 41;
+    const int * pt = &age;          // cannot change the value of a const int ponter
+    int * pt_age = &age;
 
-    float * pt1  = new float;
-	
-    std::cout << "giveme an array lenght: " << std::endl;
+    std::cout << "pt = \t\t" << pt << std::endl;    // 0x61ff18
+    std::cout << "pt_age = \t" << pt_age << std::endl;
 
+    ++pt_age;
+    std::cout << "\n " << "++pt_age \n";
+    std::cout << "pt = \t\t" << pt << std::endl;    // 0x61ff18
+    std::cout << "pt_age = \t" << pt_age << std::endl;
 
-    const int alen = 3;
-
-    int myArr[alen];
-    
-    // implicit array length declaration
-    int anArr[] = {1, 2, 3, 4, 5};
-
-    for (int i = 0; i < 5; i++)
-    {
-        std::cout << anArr[i] << std::endl;
-    }
-
-    std::cout << pt << std::endl;
-    std::cout << pt1 << std::endl;
-
+    std::cout << "*pt = \t\t" << *pt << std::endl;    // 0x61ff18
+    std::cout << "*pt_age = \t" << *pt_age << std::endl;
+    std::cout << "age = \t\t" << age << std::endl;
 }
