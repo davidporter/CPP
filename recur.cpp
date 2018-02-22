@@ -5,14 +5,15 @@ void liftoff(int);
 int main()
 {
 	countdown(4);
-	liftoff(100);
+	liftoff(3);
+	countdown(3);
 	return 0;
 }
 
 void countdown(int n)
 {
 	
-	std::cout << "counting down.. " << n << std::endl;
+	std::cout << "counting down.. " << n << " " << &n << std::endl;
 	if (n > 0)
 	{
 		countdown(n-1);
@@ -24,7 +25,7 @@ void liftoff(int m)
 {
 	if (m > 0)
 	{ 
-		std::cout << m << " "; 
+		std::cout << m << " " << &m << std::endl; 
 		liftoff(m -1);
 	}
 }
