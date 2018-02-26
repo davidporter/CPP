@@ -39,4 +39,3 @@ int main()
             subdivide(ar, mid, high, level - 1);
         }
     }
-}
